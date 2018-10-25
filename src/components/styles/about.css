@@ -1,5 +1,6 @@
 /* About Section */
 .about {
+  height: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -8,6 +9,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
 }
 .about p {
   line-height: 30px;
