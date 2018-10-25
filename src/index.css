@@ -1,0 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* base settings to make an element take up 100% of height */
+/* add height 100% to header element */
+html, body, #root {
+  height: 100%;
+}

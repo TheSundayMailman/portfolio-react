@@ -1,0 +1,41 @@
+/* General Settings */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-top: 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.content-pic {
+  width: 100%;
+  height: 100%;
+}
+.section-header {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+.focus-text {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.list-header {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.list-title {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,54 @@
+/* Projects Section */
+.projects {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.projects .row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.projects .box {
+  padding: 20px;
+}
+.projects h2 {
+  margin-top: 5px;
+  font-size: 25px;
+  line-height: 30px;
+  text-decoration: underline;
+}
+.projects p {
+  line-height: 30px;
+  font-size: 20px;
+}
+.projects hr {
+  box-sizing: content-box;
+  overflow: visible;
+  height: 0;
+  border: 1px solid black;
+}
+.projects img {
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
+}
+#no-shadow {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.repo-link {
+  display: inline-block;
+  margin: 10px 3px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.repo-link:hover {
+  color: black;
+  background-color: white;
+  transition-duration: 0.5s;
+}

@@ -1,0 +1,46 @@
+/* Others Section */
+.others {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.others p {
+  line-height: 30px;
+  font-size: 20px;
+}
+.others .caption-text {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+/* Overlay settings */
+.container {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+.container:hover .overlay {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.overlay p {
+  font-size: 15px;
+}
+.overlay-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: white;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
