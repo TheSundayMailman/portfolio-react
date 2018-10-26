@@ -2,12 +2,13 @@
 header {
   height: 100%;
   padding-top: 70px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.25)), url('https://images.pexels.com/photos/164241/pexels-photo-164241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.25)), url('../assets/header-full.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
+  color: white;
 }
 #catcher {
   margin-bottom: 10px;
@@ -22,7 +23,7 @@ header {
   left: 50%;
   margin-left: -110px;
   bottom: 0;
-  margin-bottom: 70px;
+  margin-bottom: 35px;
   color: white;
   font-size: 30px;
   text-align: center;
@@ -30,4 +31,23 @@ header {
 }
 #header-footer:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 420px) {
+  header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.25)), url('../assets/header-vertical.png') center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 414px) {
+  header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.25)), url('../assets/header-horizontal.png') center center;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+  }
 }
