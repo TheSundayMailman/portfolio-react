@@ -7,6 +7,7 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: black; /* in case image takes time to load, a black background will set in */
   overflow: hidden;
   color: white;
 }

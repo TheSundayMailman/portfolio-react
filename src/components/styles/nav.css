@@ -10,6 +10,10 @@ nav {
   border-bottom: 1px solid gray;
   z-index: 1;
 }
+.nav-container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
 nav .logo {
   position: absolute;
   display: block;
